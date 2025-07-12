@@ -13,7 +13,12 @@ I'm a Software Developer from Argentina 🇦🇷 currently studying Web & Softwa
 📌 **Projects from BYU-Idaho:**  
 - Web Dev I & II (HTML, JS, DOM)  
 - Backend Dev (APIs, MongoDB, Auth)  
-- C# projects (OOP & game development)  
+- C# projects (OOP & game development)
+
+📌 **My Projects**
+- Virtual Clinic
+- Trackpool
+- Contacts API
 
 🔍 **I’m looking for opportunities in:**  
 Backend Development | Web APIs | Data solutions  
@@ -26,6 +31,6 @@ Backend Development | Web APIs | Data solutions
 ---
 
 📫 **Connect with me:**  
-[LinkedIn](https://www.linkedin.com/in/nicolas-foti/)  
+🌐(https://www.linkedin.com/in/nicolas-foti/)  
 📧 nicolasdfoti@gmail.com  
 📍 Buenos Aires, Argentina  
