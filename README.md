@@ -1,16 +1,31 @@
-## Hi there 👋
+### Hi there 👋, I'm Nicolás Foti
 
-<!--
-**nicolasdfoti/nicolasdfoti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Software Developer from Argentina 🇦🇷 currently studying Web & Software Development at [BYU-Idaho](https://www.byui.edu/), while working at EY GDS as an AWS Executive Assistant.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🧠 **Currently learning:**  
+`Node.js` | `MongoDB` | `Express` | `React` | `Swagger` | `Docker`
+
+💻 **Languages & Tools:**  
+`JavaScript` | `Python` | `HTML/CSS` | `C#` | `SQL` | `Git` | `VSCode`
+
+📌 **Projects from BYU-Idaho:**  
+- Web Dev I & II (HTML, JS, DOM)  
+- Backend Dev (APIs, MongoDB, Auth)  
+- C# projects (OOP & game development)  
+
+🔍 **I’m looking for opportunities in:**  
+Backend Development | Web APIs | Data solutions  
+
+🌱 **Fun facts:**  
+- I’ve been an English Instructor for international students  
+- I love writing, productivity systems, and historical mysteries  
+- I dream of building tools that make life easier for others
+
+---
+
+📫 **Connect with me:**  
+[LinkedIn](https://www.linkedin.com/in/nicolas-foti/)  
+📧 nicolasdfoti@gmail.com  
+📍 Buenos Aires, Argentina  
