@@ -5,7 +5,7 @@ I'm a Software Developer from Argentina 🇦🇷 currently studying Web & Softwa
 ---
 
 🧠 **Currently learning:**  
-`Node.js` | `MongoDB` | `Express` | `React` | `Swagger` | `Docker`
+`Data Science` | `Databases and Cloud Services` | `React, Next.js and TypeScript` | `Pandas` | `Auth` | `Docker`
 
 💻 **Languages & Tools:**  
 `JavaScript` | `Python` | `HTML/CSS` | `C#` | `SQL` | `Git` | `VSCode`
