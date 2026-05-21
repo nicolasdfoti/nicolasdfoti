@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Nicolás Foti
 
-I'm a Software Developer from Argentina 🇦🇷 currently studying Web & Software Development at [BYU-Idaho](https://www.byui.edu/), while working at EY GDS as an AWS Executive Assistant.
+I'm a Software Developer from Argentina 🇦🇷 currently studying Web & Software Development at [BYU-Idaho](https://www.byui.edu/).
 
 ---
 
