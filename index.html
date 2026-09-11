@@ -1,89 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Nicolás Foti - Web CV</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+    <meta
+        name="description"
+        content="Nicolás Foti — Data & Automation Analyst focused on Python, Power Platform, AI-powered workflows and software development."
+    >
 
-    <body>
-        <header>
-            <h1>Nicolás Foti</h1>
-            <p class="contact">
-            Buenos Aires, Argentina · <a href="mailto:nicolasdfoti@gmail.com">nicolasdfoti@gmail.com</a><br>
-            <a href="https://www.linkedin.com/in/nicolas-foti" target="_blank">LinkedIn</a> · 
-            <a href="https://github.com/nicolasdfoti" target="_blank">GitHub</a>
-            </p>
+    <meta name="author" content="Nicolás Foti">
+
+    <title>Nicolás Foti | Data & Automation Analyst</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="portfolio">
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <header class="hero">
+
+            <div class="hero__content">
+
+                <p class="hero__eyebrow">
+                    Data & Automation Analyst
+                </p>
+
+                <h1 class="hero__title">
+                    Nicolás Foti
+                </h1>
+
+                <p class="hero__subtitle">
+                    Python · Power Platform · AI-powered workflows
+                </p>
+
+                <p class="hero__location">
+                    Villa Adelina, Buenos Aires
+                </p>
+
+                <div class="hero__links">
+
+                    <a
+                        class="hero__link"
+                        href="mailto:nicolasdfoti@gmail.com"
+                    >
+                        Email
+                    </a>
+
+                    <a
+                        class="hero__link"
+                        href="tel:+5491153873620"
+                    >
+                        Phone
+                    </a>
+
+                    <a
+                        class="hero__link"
+                        href="https://www.linkedin.com/in/nicolas-foti"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+                    <a
+                        class="hero__link"
+                        href="https://github.com/nicolasdfoti"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
         </header>
 
-        <section class="section">
-            <h2>About Me</h2>
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="section section--about">
+
+            <div class="section__header">
+                <span class="section__number">01</span>
+                <h2 class="section__title">About</h2>
+            </div>
+
+            <div class="section__content">
+
+                <p>
+                    Developer focused on
+                    <strong>business-process automation</strong>
+                    using Python, Power Platform and n8n, with early-stage
+                    experience integrating AI into real-world business workflows.
+                </p>
+
+                <p>
+                    Hands-on experience building
+                    <strong>end-to-end automation solutions</strong>
+                    across two enterprise environments — a Big Four professional
+                    services firm and an AEC/facilities operator.
+                </p>
+
+                <p>
+                    Comfortable working across no-code platforms and custom code
+                    to turn manual, error-prone processes into reliable,
+                    validated pipelines.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section class="section section--skills">
+
+            <div class="section__header">
+                <span class="section__number">02</span>
+                <h2 class="section__title">Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <h3 class="skill-card__title">
+                        Automation & AI
+                    </h3>
+
+                    <p class="skill-card__content">
+                        Python · n8n · Power Automate · Power Apps ·
+                        Playwright · LLM/API Integration · OpenAI ·
+                        Anthropic · Streamlit
+                    </p>
+                </article>
+
+
+                <article class="skill-card">
+                    <h3 class="skill-card__title">
+                        Data
+                    </h3>
+
+                    <p class="skill-card__content">
+                        SQL · PostgreSQL · MongoDB · Power BI ·
+                        Power Query · Data Validation · Reporting Pipelines
+                    </p>
+                </article>
+
+
+                <article class="skill-card">
+                    <h3 class="skill-card__title">
+                        Web & Software
+                    </h3>
+
+                    <p class="skill-card__content">
+                        JavaScript · TypeScript · React · Next.js ·
+                        FastAPI · Node.js · C# · Blazor · REST APIs
+                    </p>
+                </article>
+
+
+                <article class="skill-card">
+                    <h3 class="skill-card__title">
+                        Cloud
+                    </h3>
+
+                    <p class="skill-card__content">
+                        AWS — pursuing AWS Cloud Practitioner certification
+                    </p>
+                </article>
+
+
+                <article class="skill-card">
+                    <h3 class="skill-card__title">
+                        Tools
+                    </h3>
+
+                    <p class="skill-card__content">
+                        Git · GitHub · VS Code · Jupyter Notebook ·
+                        Cursor · Claude
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
+
+        <section class="section section--experience">
+
+            <div class="section__header">
+                <span class="section__number">03</span>
+                <h2 class="section__title">Professional Experience</h2>
+            </div>
+
+
+            <article class="experience">
+
+                <div class="experience__header">
+
+                    <div>
+                        <h3 class="experience__role">
+                            Area Data Analyst
+                        </h3>
+
+                        <p class="experience__company">
+                            COPIJSUD
+                        </p>
+                    </div>
+
+                    <span class="experience__date">
+                        2026 – Present
+                    </span>
+
+                </div>
+
+                <ul class="experience__list">
+
+                    <li>
+                        Built and automated a schematic-ingestion pipeline
+                        using <strong>Streamlit, Python and
+                        Playwright/Chromium</strong> that extracts data from
+                        technical schematics, validates it against the source
+                        report, and auto-loads it into the system.
+                    </li>
+
+                    <li>
+                        Reduced batch processing time from
+                        <strong>2 weeks to 1.5 hours</strong>, with a throughput
+                        of hundreds to thousands of schematics per day.
+                    </li>
+
+                    <li>
+                        Built dashboards and data models across Excel, macros,
+                        Power BI and SharePoint, supporting decision-making for
+                        <strong>1,500+ properties</strong> across South America.
+                    </li>
+
+                    <li>
+                        Improved data quality through automated validation
+                        processes, reducing manual review and increasing
+                        consistency across reporting workflows.
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+            <article class="experience">
+
+                <div class="experience__header">
+
+                    <div>
+                        <h3 class="experience__role">
+                            Executive Assistant
+                        </h3>
+
+                        <p class="experience__company">
+                            Workplace & Administrative Services — EY
+                        </p>
+                    </div>
+
+                    <span class="experience__date">
+                        2025 – 2026
+                    </span>
+
+                </div>
+
+                <ul class="experience__list">
+
+                    <li>
+                        Designed and built a time-off request and approval tool
+                        using <strong>Power Apps, SharePoint and Power
+                        Automate</strong>, used by <strong>300+ associates</strong>
+                        and 8–10 managers.
+                    </li>
+
+                    <li>
+                        Reduced approval and submission time by
+                        <strong>~90%</strong> while improving data accuracy
+                        and process clarity.
+                    </li>
+
+                    <li>
+                        Developed additional internal automation solutions
+                        with Power Apps and Power Automate to streamline
+                        administrative workflows.
+                    </li>
+
+                    <li>
+                        Supported managers and partners by optimizing
+                        day-to-day operational processes.
+                    </li>
+
+                </ul>
+
+            </article>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section class="section section--projects">
+
+            <div class="section__header">
+                <span class="section__number">04</span>
+                <h2 class="section__title">Projects</h2>
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-card__header">
+                        <span class="project-card__status">
+                            In development
+                        </span>
+                    </div>
+
+                    <h3 class="project-card__title">
+                        SoporteBot IA
+                    </h3>
+
+                    <p class="project-card__description">
+                        Conversational AI assistant for customer support and
+                        appointment scheduling, built using a RAG-based
+                        architecture as part of an applied AI and automation
+                        program.
+                    </p>
+
+                    <div class="project-card__tags">
+                        <span>AI</span>
+                        <span>RAG</span>
+                        <span>n8n</span>
+                        <span>Python</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-card__header">
+                        <span class="project-card__status project-card__status--private">
+                            Private
+                        </span>
+                    </div>
+
+                    <h3 class="project-card__title">
+                        fls_suite
+                    </h3>
+
+                    <p class="project-card__description">
+                        Unified automation and information-processing suite
+                        for AEC/facilities operations, built for
+                        non-technical end users.
+                    </p>
+
+                    <div class="project-card__tags">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>Playwright</span>
+                        <span>Automation</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-card__header">
+                        <span class="project-card__status">
+                            In development
+                        </span>
+                    </div>
+
+                    <h3 class="project-card__title">
+                        TruckPool
+                    </h3>
+
+                    <p class="project-card__description">
+                        Logistics platform designed to help drivers and users
+                        move loads through a unified platform.
+                    </p>
+
+                    <div class="project-card__tags">
+                        <span>React</span>
+                        <span>Backend</span>
+                        <span>Database</span>
+                        <span>Logistics</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-card__header">
+                        <span class="project-card__status project-card__status--published">
+                            Published
+                        </span>
+                    </div>
+
+                    <h3 class="project-card__title">
+                        <a
+                            href="https://github.com/nicolasdfoti"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            AllAir Management System
+                        </a>
+                    </h3>
+
+                    <p class="project-card__description">
+                        Full-stack management system for a vehicle A/C
+                        workshop, built with FastAPI, PostgreSQL and React.
+                        Manages clients, vehicles, work orders and payments.
+                    </p>
+
+                    <div class="project-card__tags">
+                        <span>FastAPI</span>
+                        <span>PostgreSQL</span>
+                        <span>React</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EDUCATION
+        ========================== -->
+
+        <section class="section section--education">
+
+            <div class="section__header">
+                <span class="section__number">05</span>
+                <h2 class="section__title">Education</h2>
+            </div>
+
+
+            <article class="education-item">
+
+                <div class="education-item__header">
+
+                    <div>
+                        <h3 class="education-item__degree">
+                            Bachelor of Applied Science in Software Development
+                        </h3>
+
+                        <p class="education-item__school">
+                            Brigham Young University–Idaho
+                        </p>
+                    </div>
+
+                    <span class="education-item__date">
+                        2023 – 2026
+                    </span>
+
+                </div>
+
+                <ul>
+                    <li>
+                        GPA 3.9. Full-stack web development, data structures
+                        and software engineering principles.
+                    </li>
+
+                    <li>
+                        Academic projects applying Python, C#, SQL and
+                        non-relational databases, following SDLC concepts
+                        and agile methodologies.
+                    </li>
+                </ul>
+
+            </article>
+
+
+            <article class="education-item">
+
+                <div class="education-item__header">
+
+                    <div>
+                        <h3 class="education-item__degree">
+                            Certificate in Project Management
+                        </h3>
+
+                        <p class="education-item__school">
+                            Brigham Young University–Idaho
+                        </p>
+                    </div>
+
+                    <span class="education-item__date">
+                        2025 – 2026
+                    </span>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- =========================
+             CERTIFICATIONS
+        ========================== -->
+
+        <section class="section section--certifications">
+
+            <div class="section__header">
+                <span class="section__number">06</span>
+                <h2 class="section__title">
+                    Certifications & Languages
+                </h2>
+            </div>
+
+
+            <div class="certifications-grid">
+
+                <div class="certification-group">
+
+                    <h3>In Progress</h3>
+
+                    <ul>
+                        <li>AWS Cloud Practitioner</li>
+                        <li>AI & Advanced Automation — Coderhouse</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="certification-group">
+
+                    <h3>Certifications</h3>
+
+                    <ul>
+                        <li>Certificate in Project Management — BYU–Idaho</li>
+                        <li>Programming with C# — IBM</li>
+                        <li>Programming with JavaScript — Microsoft</li>
+                        <li>Intro to Data Science — Udemy</li>
+                        <li>First Certificate in English — Cambridge</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="certification-group">
+
+                    <h3>Languages</h3>
+
+                    <ul>
+                        <li><strong>Spanish</strong> — Native</li>
+                        <li><strong>English</strong> — C2, Advanced</li>
+                        <li><strong>Italian</strong> — A2, Basic</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer class="footer">
+
             <p>
-                I'm passionate about technology and problem solving, with solid training in software and web development through BYU-Idaho and real-world experience from both corporate and volunteer environments.
-
-                I have experience in administrative roles, data management, and education, where I developed strong skills in communication, organization, teamwork, and responsibility. I’ve worked with technologies such as HTML, CSS, JavaScript, Node.js, Python, SQL, and C#, and I'm currently expanding my backend knowledge with Node.js and MongoDB.
-
-                My volunteer experience strengthened my adaptability, leadership, and commitment to meaningful service. I’ve taught English to students from different countries, many of whom are now studying abroad.
-
-                Looking ahead, I’m open to opportunities in backend development, API design, and software architecture. I value growth, efficiency, and collaboration, and I aim to build impactful technological solutions in professional environments.
+                © 2026 Nicolás Foti
             </p>
-        </section>
 
-        <section class="section">
-            <h2>Skills</h2>
-            <ul class="skills">
-                <li>HTML, CSS, JavaScript</li>
-                <li>Node.js, Express.js, MongoDB</li>
-                <li>Python, SQL, C#</li>
-                <li>REST APIs, Swagger, Git & GitHub</li>
-                <li>Teamwork, Critical Thinking, Communication</li>
-            </ul>
-        </section>
+            <div class="footer__links">
 
-        <section class="projects section">
-            <h2>Projects</h2>
-            <ul>
-                <li><a class="project-link" href="https://github.com/nicolasdfoti/wdd130" target="_blank">WDD330</a> – Advanced web projects focused on JavaScript and dynamic UI.</li>
-                <li><a class="project-link" href="https://github.com/nicolasdfoti/wdd330" target="_blank">CSE340</a> – Advanced web project using Node.js and PostgreSQL.</li>
-                <li><a class="project-link" href="https://github.com/nicolasdfoti/cse210-projects" target="_blank">CSE210</a> – C# programming assignments with a focus on OOP.</li>
-                <li><a class="project-link" href="https://github.com/nicolasdfoti/trackpool-api" target="_blank">Trackpool API</a> – API REST that connects MongoDB with a web interface using Node.js</li>
-            </ul>
-        </section>
+                <a
+                    href="https://github.com/nicolasdfoti"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
 
-        <section class="section">
-            <h2>Experience</h2>
-            <p class="highlight">EY GDS — AWS Executive Assistant</p>
-            <p>Apr 2025 – Present · Buenos Aires, Argentina · Hybrid</p>
-            <ul>
-                <li>Organize and manage executive calendars and meetings.</li>
-                <li>Support AWS team with administrative tasks and communication.</li>
-            </ul>
+                <a
+                    href="https://www.linkedin.com/in/nicolas-foti"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
 
-            <p class="highlight">LAPDi — Administrative Assistant</p>
-            <p>Jul 2022 – Jul 2024 · Buenos Aires, Argentina · On-site</p>
-            <ul>
-                <li>Managed confidential data and streamlined administrative processes.</li>
-                <li>Improved patient service through professional support and empathy.</li>
-            </ul>
+                <a href="mailto:nicolasdfoti@gmail.com">
+                    Email
+                </a>
 
-            <p class="highlight">BYU-Pathway Worldwide — English Instructor</p>
-            <p>Jul 2022 – Jul 2024 · Buenos Aires, Argentina · Virtual</p>
-            <ul>
-                <li>Managed confidential data and streamlined administrative processes.</li>
-                <li>Improved patient service through professional support and empathy.</li>
-            </ul>
-        </section>
+            </div>
 
-        <section class="section">
-            <h2>Education</h2>
-            <p class="highlight">Brigham Young University - Idaho</p>
-            <p>Bachelor in Software Development · Apr 2024 – Present</p>
+        </footer>
 
-            <p class="highlight">UNSAM - Universidad Nacional de San Martín</p>
-            <p>Bachelor in Communication Studies · Jan 2021 – Present</p>
-        </section>
-    </body>
+    </main>
+
+</body>
 </html>
