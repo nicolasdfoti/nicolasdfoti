@@ -1,6 +1,6 @@
-### Hi there 👋, I'm Nicolás Foti
+### Hi there! I'm Nicolás Foti
 
-Software Developer from Argentina 🇦🇷 focused on **process automation, data workflows, and AI-powered tools**. Background in Software Development from [BYU-Idaho](https://www.byui.edu/).
+I'm a Software Developer from Argentina 🇦🇷 focused on **process automation, data workflows, and AI-powered tools**. Background in Software Development from [BYU-Idaho](https://www.byui.edu/).
 
 I build systems that turn manual, error-prone business processes into automated, validated pipelines — combining no-code platforms with custom code and, more recently, AI.
 
@@ -19,8 +19,7 @@ I build systems that turn manual, error-prone business processes into automated,
 - **SoporteBot IA** — conversational AI assistant for customer support and appointment scheduling (RAG-based). *(in final development)*
 - **TruckPool** — logistics platform to help drivers and users move loads in a unified way. *(in development)*
 - **AllAir Management System** — full-stack management system for a vehicle A/C workshop (FastAPI, PostgreSQL, React) — clients, vehicles, work orders, and payments. *(in development)*
-- **Virtual Clinic** — [add one line on what this does]
-- **Contacts API** — [add one line on what this does]
+- **Virtual Clinic** — medical platform for patients/medical staff
 
 ---
 
@@ -32,7 +31,7 @@ Data & Automation Analyst | AI Automation Engineer | Business Process Automation
 - Into writing, productivity systems, and historical mysteries
 - Building tools that make everyday work easier for people
 
-**📫 Let's connect**
+**📫 Let's connect!**
 🌐 [linkedin.com/in/nicolas-foti](https://www.linkedin.com/in/nicolas-foti/)
 📧 [nicolasdfoti@gmail.com](mailto:nicolasdfoti@gmail.com)
 📍 Buenos Aires, Argentina
